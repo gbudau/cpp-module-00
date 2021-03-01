@@ -1,8 +1,7 @@
 #include <iostream>
 #include <cctype>
 
-static void	print_uppercase(const char *str)
-{
+static void	print_uppercase(const char *str) {
 	while (*str)
 		if (islower(*str))
 			std::cout << char(toupper(*str++));
@@ -10,8 +9,7 @@ static void	print_uppercase(const char *str)
 			std::cout << *str++;
 }
 
-int			main(int argc, char **argv)
-{
+int			main(int argc, char **argv) {
 	if (argc == 1)
 		std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
 	else
