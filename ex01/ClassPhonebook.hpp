@@ -1,12 +1,12 @@
-#ifndef PHONEBOOK_CLASS_HPP_
-#define PHONEBOOK_CLASS_HPP_
+#ifndef CLASSPHONEBOOK_HPP_
+#define CLASSPHONEBOOK_HPP_
 #include <string>
 #include <iomanip>
 #include <iostream>
 #include <limits>
 #include <cstdlib>
 #include <sstream>
-#include "contact_class.hpp"
+#include "ClassContact.hpp"
 #define MAX_CONTACTS 8
 
 class Phonebook {
@@ -23,4 +23,4 @@ class Phonebook {
 		void	_printContactsInfo() const;
 };
 
-#endif  // PHONEBOOK_CLASS_HPP_
+#endif  // CLASSPHONEBOOK_HPP_

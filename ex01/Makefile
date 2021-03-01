@@ -1,9 +1,9 @@
 NAME = phonebook
 CPPFLAGS = -Wall -Werror -Wextra
 CXX = clang++
-DEPS = contact_class.hpp phonebook_class.hpp
+DEPS = ClassContact.hpp ClassPhonebook.hpp
 
-OBJ = main.o phonebook_class.o contact_class.o
+OBJ = main.o ClassContact.o ClassPhonebook.o
 
 %.o: %.c $(DEPS)
 	$(CXX) $(CPPFLAGS) -c -o $@ $<

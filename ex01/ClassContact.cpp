@@ -1,4 +1,4 @@
-#include "contact_class.hpp"
+#include "ClassContact.hpp"
 
 void		Contact::printContact() const {
 	std::cout << std::left << std::setw(17) << "first Name: ";

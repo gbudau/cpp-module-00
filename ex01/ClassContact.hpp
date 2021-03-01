@@ -1,5 +1,5 @@
-#ifndef CONTACT_CLASS_HPP_
-#define CONTACT_CLASS_HPP_
+#ifndef CLASSCONTACT_HPP_
+#define CLASSCONTACT_HPP_
 #include <string>
 #include <iomanip>
 #include <iostream>
@@ -45,4 +45,4 @@ class Contact {
 		std::string	_truncateStr(const std::string &str, size_t width) const;
 };
 
-#endif  // CONTACT_CLASS_HPP_
+#endif  // CLASSCONTACT_HPP_

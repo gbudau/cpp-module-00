@@ -1,4 +1,4 @@
-#include "phonebook_class.hpp"
+#include "ClassPhonebook.hpp"
 
 Phonebook::Phonebook() {
 	this->_current_contacts = 0;
