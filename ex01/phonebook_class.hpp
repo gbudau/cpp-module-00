@@ -3,6 +3,9 @@
 #include <string>
 #include <iomanip>
 #include <iostream>
+#include <limits>
+#include <cstdlib>
+#include <sstream>
 #include "contact_class.hpp"
 #define MAX_CONTACTS 8
 
