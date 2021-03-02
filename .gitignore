@@ -1,10 +1,8 @@
-19920104_091532.log
-Account.class.hpp
 en.subject.pdf
-tests.cpp
 CPPLINT.cfg
 ex00/megaphone
 ex01/phonebook
+ex02/banking
 *.swp
 
 # Created by https://www.toptal.com/developers/gitignore/api/c++
