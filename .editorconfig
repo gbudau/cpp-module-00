@@ -2,6 +2,6 @@
 root = true
 
 # Set tab size to 4
-[*.{c,h}]
+[*.{cpp,hpp}]
 indent_style = tab
 indent_size = 4
